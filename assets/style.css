@@ -1,0 +1,38 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    border: 20px;
+    border-color: blueviolet;
+    padding: 10px;
+    
+}
+
+.timer {
+    font-size: 72px;
+    float: right;
+}
+ h1 {
+font-size: 64px;
+}
+
+p {
+    font-size: 36px;
+}
+.btns {
+    background-color: blueviolet;
+    color: white;
+    font-size: 36px;
+}
+
+.score {
+    font-size: 36px;
+    color:blueviolet;
+}
+
+label {
+    font-size: 36px;
+}

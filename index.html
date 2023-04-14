@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Code Quiz</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="timer" id="time"></div>
+        <button class ="btns" id="highscoreBtn" style="display: none">highscores</button>
+        
+        <h1>Coding Quiz</h1>
+        <ol id="highscores" style="display: none"></ol>
+        <p id="intro">This is a timed quiz on Javascript</p>
+        <button class="btns" id="startBtn">Start Quiz</button>
+    
+        <div id="question"></div>
+        <div id="answers"></div>
+
+        <div id="check"></div>
+
+        <div id ="final" style="display: none">
+            <label>Submit your initials</label>
+            <input id="name"/>
+            <button class="btns"id="submitBtn">Submit</button>
+            <p>Scores</p>
+            <div class="score" id="scores"></div>
+            <button class="btns" id="playAgainBtn">Play Again</button>
+        </div>
+    </div>
+    <script src="./assets/script.js"></script>
+    
+</body>
+</html>
